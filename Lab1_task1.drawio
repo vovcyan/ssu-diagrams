@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T15:11:35.682Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15" etag="Q1unnxAaguGTmANWENFy" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-27T15:12:56.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15" etag="tvEiBFpAampT8Z_UIhgJ" version="14.2.7" type="github">
   <diagram id="vwcY58YdBWURiInEvFaU" name="Page-1">
     <mxGraphModel dx="1064" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
             <mxPoint x="250" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZSSK7_2Ik7k0kjDTT8X--4" value="&lt;span&gt;e = 0.01, n = 1,&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;a1 = 0, sum = 0,&amp;nbsp;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ZSSK7_2Ik7k0kjDTT8X--4" value="&lt;span&gt;e = 0.01, n = 1,&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;a1 = 0, sum = 0, &amp;nbsp;m = 1&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="160" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZSSK7_2Ik7k0kjDTT8X--6" value="Цикл для i от 1 до&amp;nbsp;∞" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
@@ -25,8 +25,8 @@
         <mxCell id="ZSSK7_2Ik7k0kjDTT8X--8" value="a1 = &amp;nbsp;(2 ^ (n + 1) + 4 ^ (n + 1))&lt;br&gt;&amp;nbsp;/ (2 ^ n + 4 ^ n)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="155" y="250" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZSSK7_2Ik7k0kjDTT8X--9" value="aN = &amp;nbsp;(2 ^ (i + 1) + 4 ^ (i + 1))&lt;br&gt;&amp;nbsp;/ (2 ^ i + 4 ^ i)&lt;br&gt;&lt;br&gt;sum = sum + aN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="450" width="190" height="80" as="geometry" />
+        <mxCell id="ZSSK7_2Ik7k0kjDTT8X--9" value="m = i&lt;br&gt;&lt;br&gt;aN = &amp;nbsp;(2 ^ (i + 1) + 4 ^ (i + 1))&lt;br&gt;&amp;nbsp;/ (2 ^ i + 4 ^ i)&lt;br&gt;&lt;br&gt;sum = sum + aN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="443" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZSSK7_2Ik7k0kjDTT8X--10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSSK7_2Ik7k0kjDTT8X--8" target="ZSSK7_2Ik7k0kjDTT8X--6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -68,7 +68,7 @@
         <mxCell id="ZSSK7_2Ik7k0kjDTT8X--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSSK7_2Ik7k0kjDTT8X--19" target="ZSSK7_2Ik7k0kjDTT8X--26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZSSK7_2Ik7k0kjDTT8X--19" value="a1, S" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="ZSSK7_2Ik7k0kjDTT8X--19" value="m, S" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="585" width="180" height="55" as="geometry" />
         </mxCell>
         <mxCell id="ZSSK7_2Ik7k0kjDTT8X--25" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
